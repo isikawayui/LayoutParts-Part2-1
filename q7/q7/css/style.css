@@ -1,1 +1,29 @@
 @charset "UTF-8";
+.layout{
+    position: relative;
+    padding: 20px;
+    width: 500px;
+    font-size: 16px;
+    background: #fad296;
+    border-radius: 30px;
+    border: 5px solid #815a0a;
+    margin: 0 auto;
+}
+
+.layout::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 25px;
+    border: 25px solid transparent;
+    border-top: 25px solid #815a0a;
+}
+
+.layout::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 32px;
+    border: 18px solid transparent;
+    border-top: 18px solid #fad296;
+}
