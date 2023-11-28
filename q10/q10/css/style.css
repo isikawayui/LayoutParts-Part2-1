@@ -6,52 +6,101 @@
 }
 .btn{
     cursor: pointer;
-}
-.flat--red{
-    color: #fff;
-    background: #fd0f0fd9;
     line-height: 50px;
     border-radius: 10px;
     padding: 0 15px;
+    margin-left: 30px;
+    text-align: center;
+}
+.btn:first-child{
+    margin-left: 0;
+}
+
+.flat--red{
+    color: #fff;
+    background: #fd0f0fd9;
 }
 .flat--bule{
     color: #fff;
     background: #170ffdd9;
-    line-height: 50px;
-    border-radius: 10px;
-    padding: 0 15px;
-    margin: 0 30px;
 }
 .flat--green{
     color: #000;
     background: #0ffd0fd9;
-    line-height: 50px;
-    border-radius: 10px;
-    padding: 0 15px;
 }
+
+
+
+
 
 .shadow--red{
     color: #fff;
     background: #fd0f0fd9;
-    line-height: 50px;
-    border-radius: 10px;
-    padding: 0 15px;
-    box-shadow: rgba(63, 5, 5, 0.851)
+    box-shadow: 0 5px rgba(63, 5, 5, 0.851)
 }
 .shadow--bule{
     color: #fff;
     background: #170ffdd9;
-    line-height: 50px;
-    border-radius: 10px;
-    padding: 0 15px;
-    margin: 0 30px;
-    box-shadow: rgba(63, 13, 63, 0.851);
+    box-shadow: 0 5px rgba(63, 13, 63, 0.851);
 }
 .shadow--green{
     color: #000;
     background: #0ffd0fd9;
-    line-height: 50px;
-    border-radius: 10px;
-    padding: 0 15px;
-    box-shadow: rgba(63, 63, 5, 0.851);
+    box-shadow: 0 5px rgba(63, 63, 5, 0.851);
+}
+
+.push--red{
+    color: #fff;
+    background: #fd0f0fd9;
+    box-shadow: 0 5px rgba(63, 5, 5, 0.851)
+}
+.push--red:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: none;
+}
+.push--bule{
+    color: #fff;
+    background: #170ffdd9;
+    box-shadow: 0 5px rgba(63, 13, 63, 0.851);
+}
+.push--bule:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: none;
+}
+.push--green{
+    color: #000;
+    background: #0ffd0fd9;
+    box-shadow: 0 5px rgba(63, 63, 5, 0.851);
+}
+.push--green:active{
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+
+.style--1{
+    color: #67c5ff;
+    border: double 4px #67c5ff;
+}
+.style--1:hover{
+    background: #fffbef;
+}
+.style--2{
+    color: #67c5ff;
+    border: dotted 4px #67c5ff;
+}
+.style--2:hover{
+    border: dashed 4px #67c5ff;
+}
+.style--3{
+    color: #0079a5f8;
+    background: #d0edfff8;
+    border: dashed 4px #67c5ff;
+}
+.style--3:hover{
+    color: #67c5ff;
+    background: #ffffff;
 }
