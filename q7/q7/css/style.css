@@ -10,19 +10,19 @@
     margin: 0 auto;
 }
 
-.layout::before{
+.layout::before,.layout::after{
     content: "";
     position: absolute;
     top: 100%;
+}
+
+.layout::before{
     left: 25px;
     border: 25px solid transparent;
     border-top: 25px solid #815a0a;
 }
 
 .layout::after{
-    content: "";
-    position: absolute;
-    top: 100%;
     left: 32px;
     border: 18px solid transparent;
     border-top: 18px solid #fad296;
